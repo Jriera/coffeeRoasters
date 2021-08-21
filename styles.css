@@ -33,9 +33,9 @@ body{
     line-height: 32px;
     position: absolute;
     top: 100%;
-    min-height: 100vh;
-    min-width: 100vh;
-    background-image: linear-gradient(180deg, --light-cream,rgba(254, 252, 247, 0.8));
+    height: 100vh;
+    width: 100vh;
+    background-color: var(--light-cream);
     flex-direction: column;
     justify-content: center;
     align-items: center;
