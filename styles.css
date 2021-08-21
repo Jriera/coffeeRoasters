@@ -115,6 +115,10 @@ button:hover{
     text-align: center;
 }
 
+.collection p{
+    color: var(--dark-grey-blue);
+}
+
 .collection img {
     max-height: 151px;
     display: block;
