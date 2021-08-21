@@ -35,12 +35,15 @@ body{
     top: 100%;
     min-height: 100vh;
     min-width: 100vh;
-    text-align: center;
-    background: linear-gradient(180deg, rgba(254,252,247,0.49625787815126055) 43%, rgba(254,252,247,0.8744091386554622) 76%);
+    background-color: var(--light-cream);
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
 }
 
 #menu a{
     color: var(--dark-grey-blue);
+    text-decoration: none;
 }
 
 .hero{
