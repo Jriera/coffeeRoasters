@@ -37,8 +37,11 @@ body{
     width: 100%;
     background-color: var(--light-cream);
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+}
+
+#menu div{
+    margin-top:20px;
 }
 
 #menu a{
