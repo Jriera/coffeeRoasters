@@ -129,7 +129,7 @@ button:hover{
 }
 
 .why{
-    max-height: 1500px;
+    max-height: 1250px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -137,6 +137,7 @@ button:hover{
     padding-right: 30px;
     padding-left: 30px;
     background-color: var(--dark-grey-blue);
+    margin-bottom: 200px;
 }
 
 .whyTitle{
