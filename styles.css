@@ -13,6 +13,15 @@ body{
     padding-right: 15px;
 }
 
+.top{
+    padding: 30px 0;
+
+}
+
+#logo{
+    max-height: 18px;
+}
+
 #menu{
     display: none;
     font-family: 'Fraunces',serif;
@@ -58,4 +67,6 @@ button{
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    margin-top: 35px;
+    border:0;
 }
