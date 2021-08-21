@@ -200,3 +200,7 @@ button:hover{
     text-align: center;
     color:var(--light-saumon);
 }
+
+.how p{
+    color: var(--dark-grey-blue);
+}
