@@ -6,17 +6,22 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:wght@900&display=swap" rel="stylesheet">
   
   <title>Coffeeroasters subscription site</title>
 </head>
 <body>
   <div class="top">
     <img src="./assets/shared/desktop/logo.svg" alt="Coffeeroasters logo">
-    <nav>
+    
+    <nav id="menu">
       <div><a href="index.html">Home</a></div>
       <div><a href="about.html">About us</a></div>
       <div><a href="plan.html">Create your plan</a></div>
     </nav>
+    <a href="javascript:void(0);" onclick="myFunction()"><img id="hamburger" src="./assets/shared/mobile/icon-hamburger.svg" alt="menu collapsed"></a>
   </div>
 
   <div class="showcase">
@@ -103,5 +108,27 @@
     <img src="./assets/shared/desktop/icon-instagram.svg" alt="icon-instagram">
 
   </footer>
+  <script>
+
+    function myFunction(){
+      let x = document.getElementById("menu");
+      let y = document.getElementById("hamburger");
+      if(x.style.display==="block"){
+        x.style.display="none";
+      }
+      else {
+        x.style.display="block";
+      }
+
+      if(y.getAttribute("src")==="./assets/shared/mobile/icon-hamburger.svg"){
+          y.setAttribute("src","./assets/shared/mobile/icon-close.svg");
+      }
+      else{
+        y.setAttribute("src","./assets/shared/mobile/icon-hamburger.svg");
+      }
+    }
+
+  </script>
+  <img src="./assets/shared/mobile/icon-close.svg" alt="">
 </body>
 </html>

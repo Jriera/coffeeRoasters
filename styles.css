@@ -7,3 +7,7 @@
     --button-hover:#66D2CF;
     --button-disabled:#E2DEDB;
 }
+
+#menu{
+    display: none;
+}
