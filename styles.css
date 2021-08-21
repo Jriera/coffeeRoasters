@@ -34,7 +34,7 @@ body{
     position: absolute;
     top: 100%;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     background-color: var(--light-cream);
     flex-direction: column;
     justify-content: center;
