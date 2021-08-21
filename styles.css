@@ -177,7 +177,7 @@ button:hover{
     padding-left: 30px;
 }
 
-.how h3{
+.mainHow{
     font-family: 'Fraunces',serif;
     font-weight: 900;
     font-size: 24px;
@@ -201,6 +201,6 @@ button:hover{
     color:var(--light-saumon);
 }
 
-.how p{
+.dark-p{
     color: var(--dark-grey-blue);
 }
