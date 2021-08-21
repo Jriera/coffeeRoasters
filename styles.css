@@ -10,4 +10,34 @@
 
 #menu{
     display: none;
+    font-family: 'Fraunces',serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.hero{
+    background: center / cover no-repeat url("./assets/home/mobile/image-hero-coffeepress.jpg");
+     
+}
+
+.hero h2{
+    font-family: 'Fraunces',serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--light-cream);
+}
+
+p{
+    font-family: 'barlow',sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: var(--light-cream);
+}
+
+button{
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--light-cream);
+    background-color: var(--dark-cyan);
 }
