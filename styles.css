@@ -21,7 +21,7 @@ body{
 
 }
 
-#logo{
+.logo{
     max-height: 18px;
 }
 
@@ -163,4 +163,6 @@ button:hover{
     flex-direction: column;
     align-items: center;
     margin: 12px 0px;
+    padding:50px;
+    margin: 50px 0 30px;
 }
