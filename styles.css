@@ -15,6 +15,9 @@ body{
 
 .top{
     padding: 30px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -28,6 +31,8 @@ body{
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
+    position: absolute;
+    bottom: 0%;
 }
 
 .hero{
