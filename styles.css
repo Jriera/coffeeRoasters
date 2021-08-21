@@ -70,3 +70,8 @@ button{
     margin-top: 35px;
     border:0;
 }
+
+button:hover{
+    background-color: var(--button-hover);
+    cursor: pointer;
+}
