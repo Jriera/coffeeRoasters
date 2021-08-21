@@ -94,3 +94,16 @@ button:hover{
     background-color: var(--button-hover);
     cursor: pointer;
 }
+
+.collection h1{
+    font-family: 'Fraunces',serif;
+    font-weight: 900;
+    font-size: 40px;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+}
+
+.collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
