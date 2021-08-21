@@ -106,8 +106,8 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .collection h3{
@@ -126,4 +126,36 @@ button:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.why{
+    max-height: 1500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: var(--dark-grey-blue);
+}
+
+.whyTitle{
+
+    font-family: 'Fraunces',serif;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+    color: var(--light-cream);
+}
+
+.why h3{
+    font-family: 'Fraunces',serif;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+}
+
+.why div{
+    border-radius: 10px;
+    background-color: var(--dark-cyan);
 }
