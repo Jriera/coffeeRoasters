@@ -213,4 +213,10 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 30px;
+    margin-top: 150px;
+    font-family: 'barlow',sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-variant-caps:all-small-caps;
+    color: var(--grey);
 }
