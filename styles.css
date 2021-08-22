@@ -61,7 +61,7 @@ body{
     text-align: center;
 }
 
-.minisection-title-black{
+.minisection-title-grey{
     font-family: 'Fraunces',serif;
     font-weight: 900;
     font-size: 24px;
@@ -309,9 +309,23 @@ footer a{
     justify-items: center;
 }
 
+.barista-img{
+    max-height: 400px;
+    border-radius: 10px;
+}
+
 .quality{
+    position: relative;
     border-radius: 10px;
     background-color: var(--dark-grey-blue);
+    padding: 0 35px 35px 35px;
+}
+
+.quality img{
+    position: absolute;
+    border-radius: 10px;
+    width: 100%;
+    top: 0%;
 }
 
 .commitment p, .location p{
