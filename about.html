@@ -6,14 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
 
   <title>Frontend Mentor | Coffeeroasters subscription site</title>
 </head>
 
 <body>
-  Home
-  About us
-  Create your plan
+  <div class="top">
+    <img class="logo" src="./assets/shared/desktop/logo.svg" alt="Coffeeroasters logo">
+    <a href="javascript:void(0);" onclick="myFunction()">
+      <img id="hamburger" src="./assets/shared/mobile/icon-hamburger.svg" alt="menu collapsed">
+    </a>
+    <nav id="menu">
+      <div><a href="index.html">Home</a></div>
+      <div><a href="about.html">About us</a></div>
+      <div><a href="plan.html">Create your plan</a></div>
+    </nav>
+    
+  </div>
 
   About us
   Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of 
@@ -56,9 +66,38 @@
   Victoria
   +61 4 9928 3629
 
-  Home
-  About us
-  Create your plan
+  <footer>
+    <img class="index.html">Home</a></div>
+    <div><a href="about.html">About Us</a> </div>
+    <div><a href="plan.html">Create your plan</a></div>
+    <div class="social">
+      <img src="./assets/shared/desktop/icon-facebook.svg" alt="icon-facebook">
+      <img src="./assets/shared/desktop/icon-twitter.svg" alt="icon-twitter">
+      <img src="./assets/shared/desktop/icon-instagram.svg" alt="icon-instagram">
+    </div>
+
+  </footer>
+  <script>
+
+    function myFunction(){
+      let x = document.getElementById("menu");
+      let y = document.getElementById("hamburger");
+      if(x.style.display==="flex"){
+        x.style.display="none";
+      }
+      else {
+        x.style.display="flex";
+      }
+
+      if(y.getAttribute("src")==="./assets/shared/mobile/icon-hamburger.svg"){
+          y.setAttribute("src","./assets/shared/mobile/icon-close.svg");
+      }
+      else{
+        y.setAttribute("src","./assets/shared/mobile/icon-hamburger.svg");
+      }
+    }
+
+  </script>
 </body>
 
 </html>
