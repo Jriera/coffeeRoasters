@@ -230,6 +230,10 @@ footer div{
     margin-bottom: 15px;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 .social img{
     margin: 15px;
 }
