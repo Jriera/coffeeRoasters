@@ -327,6 +327,8 @@ footer a{
     border-radius: 10px;
     background-color: var(--dark-grey-blue);
     padding: 0 35px 35px 35px;
+    margin-top: 160px;
+    padding-top: 80px;
 }
 
 .quality img{
