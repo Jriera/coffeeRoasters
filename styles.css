@@ -308,3 +308,12 @@ footer a{
     justify-content: space-evenly;
     justify-items: center;
 }
+
+.quality{
+    border-radius: 10px;
+    background-color: var(--dark-grey-blue);
+}
+
+.commitment p, .location p{
+    color: var(--dark-grey-blue);
+}
