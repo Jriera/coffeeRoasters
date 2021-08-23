@@ -354,3 +354,9 @@ footer a{
     margin-bottom: auto;
     margin-right: auto;
 }
+
+.svg-container{
+    width: 55px; 
+    height: 55px;
+    margin: 65px auto 65px auto;
+}
