@@ -410,6 +410,15 @@ footer a{
     margin-top: 40px;
 }
 
+.summary-title{
+    text-decoration: none;
+    font-family: 'barlow',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-variant-caps:all-small-caps;
+    color: var(--grey);
+}
+
 .summary span{
     font-family: 'Fraunces',serif;
     font-weight: 900;
