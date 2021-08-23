@@ -394,7 +394,8 @@ footer a{
     border-radius: 10px;
     padding:10px;
     text-align: left;
-    border: var(--grey) solid 1px;
+    border: var(--button-disabled) solid 1px;
+    margin: 12px 0;
 }
 
 .preference p, .preference h4,.bean p, .bean h4,.quantity p, .quantity h4,
