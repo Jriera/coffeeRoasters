@@ -402,3 +402,17 @@ footer a{
 .grind p, .grind h4,.delivery p, .delivery h4{
     text-align: left;
 }
+
+.summary{
+    background-color: var(--dark-grey-blue);
+    border-radius: 10px;
+    padding:0 35px 35px 35px;
+    margin-top: 40px;
+}
+
+.summary span{
+    font-family: 'Fraunces',serif;
+    font-weight: 900;
+    font-size: 24px;
+    color:var(--dark-cyan);
+}
