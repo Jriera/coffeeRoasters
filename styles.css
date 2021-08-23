@@ -372,7 +372,8 @@ footer a{
 }
 
 .steps{
-    background: center / cover no-repeat url("./assets/plan/mobile/bg-steps.png");
+    /*background: center / cover no-repeat url("./assets/plan/mobile/bg-steps.png");*/
     background-color: var(--dark-grey-blue);
     border-radius: 10px;
+    padding: 35px;
 }
