@@ -71,15 +71,15 @@
   <div class="preference">
   <h4 class="minisection-title-grey">How do you drink your coffee?</h4>
 
-    <div id="capsule" class="option">
+    <div id="capsule" class="option" onclick="capsuleSelected()">
       <h4 class="minisection-title-black">Capsule</h4>
       <p class="dark-p">Compatible with Nespresso systems and similar brewers</p>
     </div>
-    <div id="filter" class="option">
+    <div id="filter" class="option" onclick="filterSelected()">
       <h4 class="minisection-title-black">Filter</h4>
       <p class="dark-p">For pour over or drip methods like Aeropress, Chemex, and V60</p>
     </div>
-    <div id="espresso" class="option">
+    <div id="espresso" class="option" onclick="espressoSelected()">
       <h4 class="minisection-title-black">Espresso</h4>
       <p class="dark-p">Dense and finely ground beans for an intense, flavorful experience</p>
     </div>
@@ -125,7 +125,7 @@
       <h4 class="minisection-title-black">Wholebean</h4>
       <p class="dark-p">Best choice if you cherish the full sensory experience</p>
     </div>
-    <div id="filter" class="option">
+    <div id="filterGrind" class="option">
       <h4 class="minisection-title-black">Filter</h4>
       <p class="dark-p">For drip or pour-over coffee methods such as V60 or Aeropress</p>
     </div>
@@ -154,7 +154,7 @@
   <div class="summary">
     <h5 class="summary-title">Order Summary</h5>
     <h4 class="minisection-title">
-      “I drink coffee<span id="preference-selection"> _____</span>, with a <span id="bean-selection">_____</span> type of bean. <span id="quantity-selection">_____</span> ground ala <span id="grind">_____</span>,
+      “I drink coffee as <span id="preference-selection"> _____</span>, with a <span id="bean-selection">_____</span> type of bean. <span id="quantity-selection">_____</span> ground ala <span id="grind">_____</span>,
       sent to me <span id="delivery-selection">_____</span>.”
     </h4>
   </div>
