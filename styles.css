@@ -370,3 +370,8 @@ footer a{
     justify-content: space-evenly;
     justify-items: center;
 }
+
+.steps{
+    background-color: var(--dark-grey-blue);
+    border-radius: 10px;
+}
