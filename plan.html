@@ -1,20 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:wght@900&display=swap" rel="stylesheet">
+  
 
-  <title>Frontend Mentor | Coffeeroasters subscription site</title>
+  <title>Coffeeroasters subscription site</title>
 </head>
 
 <body>
-  Home
-  About us
-  Create your plan
+  <div class="top">
+    <img class="logo" src="./assets/shared/desktop/logo.svg" alt="Coffeeroasters logo">
+    <a href="javascript:void(0);" onclick="myFunction()">
+      <img id="hamburger" src="./assets/shared/mobile/icon-hamburger.svg" alt="menu collapsed">
+    </a>
+    <nav id="menu">
+      <div><a href="index.html">Home</a></div>
+      <div><a href="about.html">About us</a></div>
+      <div><a href="plan.html">Create your plan</a></div>
+    </nav>
+    
+  </div>
 
-  Create a plan
-  Build a subscription plan that best fits your needs. We offer an assortment of the best 
-  artisan coffees from around the globe delivered fresh to your door.
+  <div class="plan-intro">
+    <h2 class="section-title">Create a plan</h2>
+    <p>
+      Build a subscription plan that best fits your needs. We offer an assortment of the best
+      artisan coffees from around the globe delivered fresh to your door.
+    </p>
+  </div>
 
   01
   Pick your coffee
@@ -112,9 +133,39 @@
   Checkout
   <!-- End modal -->
 
-  Home
-  About us
-  Create your plan
+  <footer>
+    <img src="./assets/shared/desktop/logo-white.svg" alt="logo-white">
+    <div><a href="index.html">Home</a> </div>
+    <div><a href="about.html">About Us</a> </div>
+    <div><a href="plan.html">Create your plan</a></div>
+    <div class="social">
+      <img src="./assets/shared/desktop/icon-facebook.svg" alt="icon-facebook">
+      <img src="./assets/shared/desktop/icon-twitter.svg" alt="icon-twitter">
+      <img src="./assets/shared/desktop/icon-instagram.svg" alt="icon-instagram">
+    </div>
+
+  </footer>
+  <script>
+
+    function myFunction(){
+      let x = document.getElementById("menu");
+      let y = document.getElementById("hamburger");
+      if(x.style.display==="flex"){
+        x.style.display="none";
+      }
+      else {
+        x.style.display="flex";
+      }
+
+      if(y.getAttribute("src")==="./assets/shared/mobile/icon-hamburger.svg"){
+          y.setAttribute("src","./assets/shared/mobile/icon-close.svg");
+      }
+      else{
+        y.setAttribute("src","./assets/shared/mobile/icon-hamburger.svg");
+      }
+    }
+
+  </script>
 </body>
 
 </html>
