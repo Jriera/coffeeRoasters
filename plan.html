@@ -139,15 +139,15 @@
     <h4 class="minisection-title-grey">How often should we deliver?</h4>
     <div id="weekly" class="option" onclick="weeklySelected()">
       <h4 class="minisection-title-black">Every week</h4>
-      <p class="dark-p">$14.00 per shipment. Includes free first-class shipping.</p>
+      <p class="dark-p">$<span id="weekly-price">14.00</span> per shipment. Includes free first-class shipping.</p>
     </div>
     <div id="biweekly" class="option" onclick="biweeklySelected()">
       <h4 class="minisection-title-black">Every 2 weeks</h4>
-      <p class="dark-p">$17.25 per shipment. Includes free priority shipping.</p>
+      <p class="dark-p">$<span id="biweekly-price">17.25</span> per shipment. Includes free priority shipping.</p>
     </div>
     <div id="monthly" class="option" onclick="monthlySelected()">
       <h4 class="minisection-title-black">Every month</h4>
-      <p class="dark-p">$22.50 per shipment. Includes free priority shipping.</p>
+      <p class="dark-p">$<span id="monthly-price">22.50</span> per shipment. Includes free priority shipping.</p>
     </div>
   </div>
 
@@ -161,7 +161,7 @@
     </h4>
   </div>
 
-  <button>Create my plan!</button>
+  <button onclick="pricing()">Create my plan!</button>
 
   <!-- Modal -->
   <div id="modal">

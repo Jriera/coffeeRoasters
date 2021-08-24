@@ -176,3 +176,24 @@ var monthlySelected = function(){
     document.getElementById("delivery-selection-modal").innerHTML="monthly";
 }
 
+var pricing = function(){
+    var weeklyCost=(parseFloat(document.getElementById("weekly-price").innerHTML))*4;
+    console.log(weeklyCost);
+    var biweeklyCost=(parseFloat(document.getElementById("biweekly-price").innerHTML))*2;
+    console.log(biweeklyCost);
+    var monthlyCost=(parseFloat(document.getElementById("monthly-price").innerHTML));
+    console.log(monthlyCost);
+
+    if(document.getElementById("delivery-selection").innerHTML==="weekly"){
+        document.getElementById("price").innerHTML=weeklyCost;
+    }
+
+    else if(document.getElementById("delivery-selection").innerHTML==="biweekly"){
+        document.getElementById("price").innerHTML=biweeklyCost;
+
+    }
+
+    else if(document.getElementById("delivery-selection").innerHTML==="monthly"){
+        document.getElementById("price").innerHTML=monthlyCost;
+    }
+}

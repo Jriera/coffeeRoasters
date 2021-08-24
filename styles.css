@@ -432,7 +432,7 @@ footer a{
     color: var(--grey);
 }
 
-.summary span{
+.summary span, #modal span{
     font-family: 'Fraunces',serif;
     font-weight: 900;
     font-size: 24px;
@@ -444,5 +444,6 @@ footer a{
 }
 
 #modal-header{
+    padding: 20px;
     background-color: var(--dark-grey-blue);
 }
