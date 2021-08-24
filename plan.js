@@ -41,8 +41,8 @@ var capsuleSelected = function(){
     espresso.className="option";
 
     document.getElementById("preference-selection").innerHTML="capsule";
-    var y=document.getElementById("preference-selection").innerHTML;
-    console.log(y)
+    /* var y=document.getElementById("preference-selection").innerHTML;
+    console.log(y) */
 
 }
 
@@ -52,16 +52,48 @@ var filterSelected = function(){
     espresso.className="option";
 
     document.getElementById("preference-selection").innerHTML="filter";
-    var x=document.getElementById("preference-selection").innerHTML;
-    console.log(x)
+    /* var x=document.getElementById("preference-selection").innerHTML;
+    console.log(x) */
 
 }
 
 var espressoSelected = function(){
-    espresso.style.backgroundColor="#0E8784";
-    filter.style.backgroundColor="#FEFCF7";
-    capsule.style.backgroundColor="#FEFCF7";
+    espresso.className="optionSelected";
+    capsule.className="option";
+    filter.className="option";
 
     document.getElementById("preference-selection").innerHTML="espresso";
 
 }
+
+//bean
+
+var originSelected = function(){
+    origin.className="optionSelected";
+    decaf.className="option";
+    blended.className="option";
+
+    document.getElementById("bean-selection").innerHTML="single origin";
+
+}
+
+var decafSelected = function(){
+    decaf.className="optionSelected";
+    origin.className="option";
+    blended.className="option";
+
+    document.getElementById("bean-selection").innerHTML="decaf";
+
+}
+
+var blendedSelected = function(){
+    blended.className="optionSelected";
+    origin.className="option";
+    decaf.className="option";
+
+    document.getElementById("bean-selection").innerHTML="blended";
+
+}
+
+
+
