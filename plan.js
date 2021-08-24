@@ -36,20 +36,24 @@ var monthly = document.getElementById("monthly");
 } */
 
 var capsuleSelected = function(){
-    document.getElementById("capsule").style.backgroundColor="#0E8784";
-    filter.style.backgroundColor="#FEFCF7";
-    espresso.style.backgroundColor="#FEFCF7";
+    document.getElementById("capsule").className="optionSelected";
+    filter.className="option";
+    espresso.className="option";
 
     document.getElementById("preference-selection").innerHTML="capsule";
+    var y=document.getElementById("preference-selection").innerHTML;
+    console.log(y)
 
 }
 
 var filterSelected = function(){
-    filter.style.backgroundColor="#0E8784";
-    capsule.style.backgroundColor="#FEFCF7";
-    espresso.style.backgroundColor="#FEFCF7";
+    document.getElementById("filter").className="optionSelected";
+    capsule.className="option";
+    espresso.className="option";
 
     document.getElementById("preference-selection").innerHTML="filter";
+    var x=document.getElementById("preference-selection").innerHTML;
+    console.log(x)
 
 }
 
