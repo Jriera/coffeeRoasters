@@ -71,7 +71,7 @@
   <div class="preference">
   <h4 class="minisection-title-grey">How do you drink your coffee?</h4>
 
-    <div id="capsule" class="option" >
+    <div id="capsule" class="option" onclick="capsuleSelected()">
       <h4 class="minisection-title-black">Capsule</h4>
       <p class="dark-p">Compatible with Nespresso systems and similar brewers</p>
     </div>
@@ -154,7 +154,9 @@
   <div class="summary">
     <h5 class="summary-title">Order Summary</h5>
     <h4 class="minisection-title">
-      “I drink coffee as <span id="preference-selection"> _____</span>, with a <span id="bean-selection">_____</span> type of bean. <span id="quantity-selection">_____</span> ground ala <span id="grind-selection">_____</span>,
+      “I drink coffee as <span class="preference-selection"> _____</span>, with a 
+      <span class="bean-selection">_____</span> type of bean. 
+      <span class="quantity-selection">_____</span> ground ala <span class="grind-selection">_____</span>,
       sent to me <span id="delivery-selection">_____</span>.”
     </h4>
   </div>
@@ -163,13 +165,21 @@
 
   <!-- Modal -->
   <div id="modal">
-    Order Summary
-    “I drink coffee _____, with a _____ type of bean. _____ ground ala _____,
-    sent to me _____.”
-    Is this correct? You can proceed to checkout or go back to plan selection if something
-    is off. Subscription discount codes can also be redeemed at the checkout.
-    $_____/month
-    Checkout
+    <div id="modal-header">
+      <h4 class="subsection-title">Order Summary</h4>
+    </div>
+    <h4 class="minisection-title-grey">
+      “I drink coffee as <span class="preference-selection"> _____</span>, with a 
+      <span class="bean-selection">_____</span> type of bean. 
+      <span class="quantity-selection">_____</span> ground ala <span class="grind-selection">_____</span>,
+      sent to me <span id="delivery-selection">_____</span>.”
+    </h4>
+    <p class="dark-p">
+      Is this correct? You can proceed to checkout or go back to plan selection if something
+      is off. Subscription discount codes can also be redeemed at the checkout.
+      $<span id="price">_____</span>/month
+    </p>
+    <button>Checkout</button>
   </div>
   <!-- End modal -->
 

@@ -27,7 +27,7 @@ var capsuleSelected = function(){
     filter.className="option";
     espresso.className="option";
 
-    document.getElementById("preference-selection").innerHTML="capsule";
+    document.getElementsByClassName("preference-selection").innerHTML="capsule";
     /* var y=document.getElementById("preference-selection").innerHTML;
     console.log(y) */
 
@@ -38,7 +38,7 @@ var filterSelected = function(){
     capsule.className="option";
     espresso.className="option";
 
-    document.getElementById("preference-selection").innerHTML="filter";
+    document.getElementsByClassName("preference-selection").innerHTML="filter";
     /* var x=document.getElementById("preference-selection").innerHTML;
     console.log(x) */
 
@@ -49,7 +49,7 @@ var espressoSelected = function(){
     capsule.className="option";
     filter.className="option";
 
-    document.getElementById("preference-selection").innerHTML="espresso";
+    document.getElementsByClassName("preference-selection").innerHTML="espresso";
 
 }
 
@@ -60,7 +60,7 @@ var originSelected = function(){
     decaf.className="option";
     blended.className="option";
 
-    document.getElementById("bean-selection").innerHTML="single origin";
+    document.getElementsByClassName("bean-selection").innerHTML="single origin";
 
 }
 
@@ -69,7 +69,7 @@ var decafSelected = function(){
     origin.className="option";
     blended.className="option";
 
-    document.getElementById("bean-selection").innerHTML="decaf";
+    document.getElementsByClassName("bean-selection").innerHTML="decaf";
 
 }
 
@@ -78,7 +78,7 @@ var blendedSelected = function(){
     origin.className="option";
     decaf.className="option";
 
-    document.getElementById("bean-selection").innerHTML="blended";
+    document.getElementsByClassName("bean-selection").innerHTML="blended";
 
 }
 
@@ -89,7 +89,7 @@ var grams250Selected = function(){
     grams500.className="option";
     grams1000.className="option";
 
-    document.getElementById("quantity-selection").innerHTML="250g";
+    document.getElementsByClassName("quantity-selection").innerHTML="250g";
 
 }
 
@@ -98,7 +98,7 @@ var grams500Selected = function(){
     grams250.className="option";
     grams1000.className="option";
 
-    document.getElementById("quantity-selection").innerHTML="500g";
+    document.getElementsByClassName("quantity-selection").innerHTML="500g";
 
 }
 
@@ -107,7 +107,7 @@ var grams1000Selected = function(){
     grams250.className="option";
     grams500.className="option";
 
-    document.getElementById("quantity-selection").innerHTML="1000g";
+    document.getElementsByClassName("quantity-selection").innerHTML="1000g";
 
 }
 
@@ -118,7 +118,7 @@ var wholeBeanSelected = function(){
     filterGrind.className="option";
     cafetiere.className="option";
 
-    document.getElementById("grind-selection").innerHTML="whole bean";
+    document.getElementsByClassName("grind-selection").innerHTML="whole bean";
 }
 
 var filterGrindSelected = function(){
@@ -126,7 +126,7 @@ var filterGrindSelected = function(){
     wholeBean.className="option";
     cafetiere.className="option";
 
-    document.getElementById("grind-selection").innerHTML="filter";
+    document.getElementsByClassName("grind-selection").innerHTML="filter";
 }
 
 var cafetiereSelected = function(){
@@ -134,7 +134,7 @@ var cafetiereSelected = function(){
     filterGrind.className="option";
     wholeBean.className="option";
 
-    document.getElementById("grind-selection").innerHTML="cafetiére";
+    document.getElementsByClassName("grind-selection").innerHTML="cafetiére";
 }
 
 
@@ -145,7 +145,7 @@ var weeklySelected = function(){
     biweekly.className="option";
     monthly.className="option";
 
-    document.getElementById("delivery-selection").innerHTML="weekly";
+    document.getElementsByClassName("delivery-selection").innerHTML="weekly";
 }
 
 var biweeklySelected = function(){
@@ -153,7 +153,7 @@ var biweeklySelected = function(){
     weekly.className="option";
     monthly.className="option";
 
-    document.getElementById("delivery-selection").innerHTML="biweekly";
+    document.getElementsByClassName("delivery-selection").innerHTML="biweekly";
 }
 
 var monthlySelected = function(){
@@ -161,7 +161,6 @@ var monthlySelected = function(){
     biweekly.className="option";
     weekly.className="option";
 
-    document.getElementById("delivery-selection").innerHTML="monthly";
+    document.getElementsByClassName("delivery-selection").innerHTML="monthly";
 }
 
-capsule.onclick=capsuleSelected();

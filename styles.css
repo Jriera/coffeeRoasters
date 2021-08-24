@@ -440,5 +440,9 @@ footer a{
 }
 
 #modal{
-    display: none;
+    /* display: none; */
+}
+
+.modal-header{
+    background-color: var(--dark-grey-blue);
 }
