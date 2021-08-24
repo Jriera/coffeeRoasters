@@ -18,22 +18,9 @@ var weekly = document.getElementById("weekly");
 var biweekly = document.getElementById("biweekly");
 var monthly = document.getElementById("monthly");
 
-/*#FEFCF7 light cream
-#0E8784 dark green*/
 
-/* var preferenceStyle = function (){
-    if(capsule.style.backgroundColor==="#0E8784;" || filter.style.backgroundColor==="#0E8784 "){
-        espresso.style.backgroundColor="#FEFCF7";
-    }
 
-    else if(espresso.style.backgroundColor==="#0E8784;" || filter.style.backgroundColor==="#0E8784 "){
-        capsule.style.backgroundColor="#FEFCF7";
-    }
-
-    else if(espresso.style.backgroundColor==="#0E8784;" || capsule.style.backgroundColor==="#0E8784 "){
-        filter.style.backgroundColor="#FEFCF7";
-    }
-} */
+//preference
 
 var capsuleSelected = function(){
     document.getElementById("capsule").className="optionSelected";
@@ -148,4 +135,31 @@ var cafetiereSelected = function(){
     wholeBean.className="option";
 
     document.getElementById("grind-selection").innerHTML="cafetiére";
+}
+
+
+//delivery
+
+var weeklySelected = function(){
+    weekly.className="optionSelected";
+    biweekly.className="option";
+    monthly.className="option";
+
+    document.getElementById("delivery-selection").innerHTML="weekly";
+}
+
+var biweeklySelected = function(){
+    biweekly.className="optionSelected";
+    weekly.className="option";
+    monthly.className="option";
+
+    document.getElementById("delivery-selection").innerHTML="biweekly";
+}
+
+var monthlySelected = function(){
+    monthly.className="optionSelected";
+    biweekly.className="option";
+    weekly.className="option";
+
+    document.getElementById("delivery-selection").innerHTML="monthly";
 }
