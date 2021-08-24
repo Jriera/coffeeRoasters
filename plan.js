@@ -102,7 +102,7 @@ var grams250Selected = function(){
     grams500.className="option";
     grams1000.className="option";
 
-    document.getElementById("quantity-selection").innerHTML="250g.";
+    document.getElementById("quantity-selection").innerHTML="250g";
 
 }
 
@@ -111,7 +111,7 @@ var grams500Selected = function(){
     grams250.className="option";
     grams1000.className="option";
 
-    document.getElementById("quantity-selection").innerHTML="500g.";
+    document.getElementById("quantity-selection").innerHTML="500g";
 
 }
 
@@ -120,6 +120,32 @@ var grams1000Selected = function(){
     grams250.className="option";
     grams500.className="option";
 
-    document.getElementById("quantity-selection").innerHTML="1000g.";
+    document.getElementById("quantity-selection").innerHTML="1000g";
 
+}
+
+//grind
+
+var wholeBeanSelected = function(){
+    wholeBean.className="optionSelected";
+    filterGrind.className="option";
+    cafetiere.className="option";
+
+    document.getElementById("quantity-selection").innerHTML="whole bean";
+}
+
+var filterGrindSelected = function(){
+    filterGrind.className="optionSelected";
+    wholeBean.className="option";
+    cafetiere.className="option";
+
+    document.getElementById("quantity-selection").innerHTML="filter";
+}
+
+var cafetiereSelected = function(){
+    cafetiere.className="optionSelected";
+    filterGrind.className="option";
+    wholeBean.className="option";
+
+    document.getElementById("quantity-selection").innerHTML="cafetiére";
 }
