@@ -134,6 +134,7 @@ p{
 }
 
 button{
+    font-family: 'Fraunces',serif;
     font-size: 18px;
     font-weight: 900;
     color: var(--light-cream);
@@ -453,5 +454,13 @@ footer a{
     font-family: 'Fraunces',serif;
     font-size: 18px;
     font-weight: 900;
-    color: var(--light-cream);
+    color: var(--light-cream) !important;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
 }
