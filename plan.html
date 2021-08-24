@@ -164,22 +164,24 @@
   <div class="button-wrapper"><button id="modal-popup" onclick="pricing()">Create my plan!</button></div>
 
   <!-- Modal -->
-  <div id="modal">
-    <div id="modal-header">
-      <h4 class="subsection-title">Order Summary</h4>
+  <div id="modal-wrapper">
+    <div id="modal">
+      <div id="modal-header">
+        <h4 class="subsection-title">Order Summary</h4>
+      </div>
+      <h4 class="minisection-title-grey">
+        “I drink coffee as <span id="preference-selection-modal"> _____</span>, with a
+        <span id="bean-selection-modal">_____</span> type of bean.
+        <span id="quantity-selection-modal">_____</span> ground ala <span id="grind-selection-modal">_____</span>,
+        sent to me <span id="delivery-selection-modal">_____</span>.”
+      </h4>
+      <p class="dark-p">
+        Is this correct? You can proceed to checkout or go back to plan selection if something
+        is off. Subscription discount codes can also be redeemed at the checkout.
+    
+      </p>
+      <div class="button-wrapper"><button>Checkout - $<span id="price">_____</span> / month</button></div>
     </div>
-    <h4 class="minisection-title-grey">
-      “I drink coffee as <span id="preference-selection-modal"> _____</span>, with a 
-      <span id="bean-selection-modal">_____</span> type of bean. 
-      <span id="quantity-selection-modal">_____</span> ground ala <span id="grind-selection-modal">_____</span>,
-      sent to me <span id="delivery-selection-modal">_____</span>.”
-    </h4>
-    <p class="dark-p">
-      Is this correct? You can proceed to checkout or go back to plan selection if something
-      is off. Subscription discount codes can also be redeemed at the checkout.
-      
-    </p>
-    <div class="button-wrapper"><button>Checkout - $<span id="price">_____</span> / month</button></div>
   </div>
   <!-- End modal --> 
 
