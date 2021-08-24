@@ -443,6 +443,6 @@ footer a{
     /* display: none; */
 }
 
-.modal-header{
+#modal-header{
     background-color: var(--dark-grey-blue);
 }

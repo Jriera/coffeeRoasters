@@ -18,18 +18,18 @@ var weekly = document.getElementById("weekly");
 var biweekly = document.getElementById("biweekly");
 var monthly = document.getElementById("monthly");
 
+-modal
 
-
-//preference
+//preference 
 
 var capsuleSelected = function(){
     document.getElementById("capsule").className="optionSelected";
     filter.className="option";
     espresso.className="option";
 
-    document.getElementsByClassName("preference-selection").innerHTML="capsule";
-    /* var y=document.getElementById("preference-selection").innerHTML;
-    console.log(y) */
+    document.getElementById("preference-selection").innerHTML="capsule";
+    document.getElementById("preference-selection-modal").innerHTML="capsule";
+    
 
 }
 
@@ -38,10 +38,9 @@ var filterSelected = function(){
     capsule.className="option";
     espresso.className="option";
 
-    document.getElementsByClassName("preference-selection").innerHTML="filter";
-    /* var x=document.getElementById("preference-selection").innerHTML;
-    console.log(x) */
-
+    document.getElementById("preference-selection").innerHTML="filter";
+    document.getElementById("preference-selection-modal").innerHTML="filter";
+   
 }
 
 var espressoSelected = function(){
@@ -49,7 +48,8 @@ var espressoSelected = function(){
     capsule.className="option";
     filter.className="option";
 
-    document.getElementsByClassName("preference-selection").innerHTML="espresso";
+    document.getElementById("preference-selection").innerHTML="espresso";
+    document.getElementById("preference-selection-modal").innerHTML="espresso";
 
 }
 
@@ -60,7 +60,8 @@ var originSelected = function(){
     decaf.className="option";
     blended.className="option";
 
-    document.getElementsByClassName("bean-selection").innerHTML="single origin";
+    document.getElementById("bean-selection").innerHTML="single origin";
+    document.getElementById("bean-selection-modal").innerHTML="single origin";
 
 }
 
@@ -69,7 +70,8 @@ var decafSelected = function(){
     origin.className="option";
     blended.className="option";
 
-    document.getElementsByClassName("bean-selection").innerHTML="decaf";
+    document.getElementById("bean-selection").innerHTML="decaf";
+    document.getElementById("bean-selection-modal").innerHTML="decaf";
 
 }
 
@@ -78,7 +80,8 @@ var blendedSelected = function(){
     origin.className="option";
     decaf.className="option";
 
-    document.getElementsByClassName("bean-selection").innerHTML="blended";
+    document.getElementById("bean-selection").innerHTML="blended";
+    document.getElementById("bean-selection-modal").innerHTML="blended";
 
 }
 
@@ -89,7 +92,8 @@ var grams250Selected = function(){
     grams500.className="option";
     grams1000.className="option";
 
-    document.getElementsByClassName("quantity-selection").innerHTML="250g";
+    document.getElementById("quantity-selection").innerHTML="250g";
+    document.getElementById("quantity-selection-modal").innerHTML="250g";
 
 }
 
@@ -98,7 +102,8 @@ var grams500Selected = function(){
     grams250.className="option";
     grams1000.className="option";
 
-    document.getElementsByClassName("quantity-selection").innerHTML="500g";
+    document.getElementById("quantity-selection").innerHTML="500g";
+    document.getElementById("quantity-selection-modal").innerHTML="500g";
 
 }
 
@@ -107,7 +112,8 @@ var grams1000Selected = function(){
     grams250.className="option";
     grams500.className="option";
 
-    document.getElementsByClassName("quantity-selection").innerHTML="1000g";
+    document.getElementById("quantity-selection").innerHTML="1000g";
+    document.getElementById("quantity-selection-modal").innerHTML="1000g";
 
 }
 
@@ -118,7 +124,8 @@ var wholeBeanSelected = function(){
     filterGrind.className="option";
     cafetiere.className="option";
 
-    document.getElementsByClassName("grind-selection").innerHTML="whole bean";
+    document.getElementById("grind-selection").innerHTML="whole bean";
+    document.getElementById("grind-selection-modal").innerHTML="whole bean";
 }
 
 var filterGrindSelected = function(){
@@ -126,7 +133,8 @@ var filterGrindSelected = function(){
     wholeBean.className="option";
     cafetiere.className="option";
 
-    document.getElementsByClassName("grind-selection").innerHTML="filter";
+    document.getElementById("grind-selection").innerHTML="filter";
+    document.getElementById("grind-selection-modal").innerHTML="filter";
 }
 
 var cafetiereSelected = function(){
@@ -134,7 +142,8 @@ var cafetiereSelected = function(){
     filterGrind.className="option";
     wholeBean.className="option";
 
-    document.getElementsByClassName("grind-selection").innerHTML="cafetiére";
+    document.getElementById("grind-selection").innerHTML="cafetiére";
+    document.getElementById("grind-selection-modal").innerHTML="cafetiére";
 }
 
 
@@ -145,7 +154,8 @@ var weeklySelected = function(){
     biweekly.className="option";
     monthly.className="option";
 
-    document.getElementsByClassName("delivery-selection").innerHTML="weekly";
+    document.getElementById("delivery-selection").innerHTML="weekly";
+    document.getElementById("delivery-selection-modal").innerHTML="weekly";
 }
 
 var biweeklySelected = function(){
@@ -153,7 +163,8 @@ var biweeklySelected = function(){
     weekly.className="option";
     monthly.className="option";
 
-    document.getElementsByClassName("delivery-selection").innerHTML="biweekly";
+    document.getElementById("delivery-selection").innerHTML="biweekly";
+    document.getElementById("delivery-selection-modal").innerHTML="biweekly";
 }
 
 var monthlySelected = function(){
@@ -161,6 +172,7 @@ var monthlySelected = function(){
     biweekly.className="option";
     weekly.className="option";
 
-    document.getElementsByClassName("delivery-selection").innerHTML="monthly";
+    document.getElementById("delivery-selection").innerHTML="monthly";
+    document.getElementById("delivery-selection-modal").innerHTML="monthly";
 }
 
