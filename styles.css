@@ -467,13 +467,17 @@ footer a{
   cursor: pointer; 
   background-color: var(--light-cream);
   margin: auto;
-  
-}
+  border-radius: 5px;
+  }
 
 #modal-header{
     padding: 10px;
     background-color: var(--dark-grey-blue);
     
+}
+
+#modal-inner-wrapper{
+    padding: 15px;
 }
 
 #price{
