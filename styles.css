@@ -440,8 +440,8 @@ footer a{
     color:var(--dark-cyan);
 }
 
-/* #modal-wrapper{
-  position: fixed; /
+#modal-wrapper{
+  position: fixed; 
   display: none; 
   width: 100%; 
   height: 100%; 
@@ -450,7 +450,9 @@ footer a{
   right: 0;
   bottom: 0;
   z-index: 2; 
-} */
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+} 
 
 #modal{
   position: fixed; /* Sit on top of the page content */
@@ -461,10 +463,11 @@ footer a{
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 2; 
+  z-index: 3; 
   cursor: pointer; 
   background-color: var(--light-cream);
-  backdrop-filter: blur(5px);
+  margin: auto;
+  
 }
 
 #modal-header{
