@@ -438,3 +438,7 @@ footer a{
     font-size: 24px;
     color:var(--dark-cyan);
 }
+
+#modal{
+    display: none;
+}
