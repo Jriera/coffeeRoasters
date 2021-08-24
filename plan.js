@@ -11,7 +11,7 @@ var grams500 = document.getElementById("500g");
 var grams1000 = document.getElementById("1000g");
 
 var wholeBean = document.getElementById("wholebean");
-var filterGrind = document.getElementById("filter>Grind");
+var filterGrind = document.getElementById("filterGrind");
 var cafetiere = document.getElementById("cafetiere");
 
 var weekly = document.getElementById("weekly");
