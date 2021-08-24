@@ -131,7 +131,7 @@ var wholeBeanSelected = function(){
     filterGrind.className="option";
     cafetiere.className="option";
 
-    document.getElementById("quantity-selection").innerHTML="whole bean";
+    document.getElementById("grind-selection").innerHTML="whole bean";
 }
 
 var filterGrindSelected = function(){
@@ -139,7 +139,7 @@ var filterGrindSelected = function(){
     wholeBean.className="option";
     cafetiere.className="option";
 
-    document.getElementById("quantity-selection").innerHTML="filter";
+    document.getElementById("grind-selection").innerHTML="filter";
 }
 
 var cafetiereSelected = function(){
@@ -147,5 +147,5 @@ var cafetiereSelected = function(){
     filterGrind.className="option";
     wholeBean.className="option";
 
-    document.getElementById("quantity-selection").innerHTML="cafetiére";
+    document.getElementById("grind-selection").innerHTML="cafetiére";
 }
