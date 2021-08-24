@@ -196,4 +196,6 @@ var pricing = function(){
     else if(document.getElementById("delivery-selection").innerHTML==="monthly"){
         document.getElementById("price").innerHTML=monthlyCost;
     }
+
+    //document.getElementById("modal").style.display="block";
 }

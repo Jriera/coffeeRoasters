@@ -444,6 +444,14 @@ footer a{
 }
 
 #modal-header{
-    padding: 20px;
+    padding: 10px;
     background-color: var(--dark-grey-blue);
+    
+}
+
+#price{
+    font-family: 'Fraunces',serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--light-cream);
 }

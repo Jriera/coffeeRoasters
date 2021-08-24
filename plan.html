@@ -161,7 +161,7 @@
     </h4>
   </div>
 
-  <button onclick="pricing()">Create my plan!</button>
+  <button id="modal-popup" onclick="pricing()">Create my plan!</button>
 
   <!-- Modal -->
   <div id="modal">
@@ -177,9 +177,9 @@
     <p class="dark-p">
       Is this correct? You can proceed to checkout or go back to plan selection if something
       is off. Subscription discount codes can also be redeemed at the checkout.
-      $<span id="price">_____</span>/month
+      
     </p>
-    <button>Checkout</button>
+    <button>Checkout $<span id="price">_____</span>/month</button>
   </div>
   <!-- End modal -->
 
