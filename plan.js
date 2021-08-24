@@ -36,7 +36,7 @@ var monthly = document.getElementById("monthly");
 } */
 
 var capsuleSelected = function(){
-    capsule.style.backgroundColor="#0E8784";
+    document.getElementById("capsule").style.backgroundColor="#0E8784";
     filter.style.backgroundColor="#FEFCF7";
     espresso.style.backgroundColor="#FEFCF7";
 
