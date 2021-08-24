@@ -197,5 +197,5 @@ var pricing = function(){
         document.getElementById("price").innerHTML=monthlyCost;
     }
 
-    //document.getElementById("modal").style.display="block";
+    document.getElementById("modal").style.display="block";
 }

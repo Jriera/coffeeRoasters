@@ -441,7 +441,7 @@ footer a{
 }
 
 #modal{
-    /* display: none; */
+    display: none; 
 }
 
 #modal-header{
@@ -452,7 +452,7 @@ footer a{
 
 #price{
     font-family: 'Fraunces',serif;
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 900;
     color: var(--light-cream) !important;
 }
