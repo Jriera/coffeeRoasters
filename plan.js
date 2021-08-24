@@ -200,3 +200,8 @@ var pricing = function(){
     document.getElementById("modal").style.display="block";
     document.getElementById("modal-wrapper").style.display="block";
 }
+
+var modalClose= function(){
+    document.getElementById("modal-wrapper").style.display="none";
+}
+
