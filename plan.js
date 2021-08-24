@@ -164,4 +164,4 @@ var monthlySelected = function(){
     document.getElementById("delivery-selection").innerHTML="monthly";
 }
 
-capsule.onclick(capsuleSelected());
+capsule.onclick=capsuleSelected();
