@@ -205,3 +205,21 @@ var modalClose= function(){
     document.getElementById("modal-wrapper").style.display="none";
 }
 
+var hamburgerMenu = function(){
+    let x = document.getElementById("menu");
+    let y = document.getElementById("hamburger");
+    if(x.style.display==="flex"){
+      x.style.display="none";
+    }
+    else {
+      x.style.display="flex";
+    }
+
+    if(y.getAttribute("src")==="./assets/shared/mobile/icon-hamburger.svg"){
+        y.setAttribute("src","./assets/shared/mobile/icon-close.svg");
+    }
+    else{
+      y.setAttribute("src","./assets/shared/mobile/icon-hamburger.svg");
+    }
+}
+
