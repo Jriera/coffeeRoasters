@@ -474,7 +474,7 @@ footer a{
 #modal-header{
     padding: 10px;
     background-color: var(--dark-grey-blue);
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     
 }
 
