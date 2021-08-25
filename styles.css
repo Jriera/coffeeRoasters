@@ -101,6 +101,7 @@ body{
 }
 
 #menu a{
+    font-family: 'Fraunces',serif;
     color: var(--dark-grey-blue);
     text-decoration: none;
 }
