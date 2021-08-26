@@ -539,7 +539,7 @@ footer a{
         font-size: 16px;
         line-height: 21px;
         max-width: 560px;
-        padding: 0 16px;
+        padding: 0 32px 0 0px;
     }
 
     body{
@@ -589,6 +589,10 @@ footer a{
 
     .hero p{
         text-align: left;
+    }
+
+    .collection{
+        margin-bottom: 120px;
     }
 
     .collection-wrapper{
