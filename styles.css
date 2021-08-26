@@ -605,5 +605,9 @@ footer a{
         background: center /cover no-repeat url("./assets/home/desktop/image-hero-coffeepress.jpg");
         min-height: 400px;
     }
+
+    #hero-body{
+        max-width: 50%;
+    }
     
 }
