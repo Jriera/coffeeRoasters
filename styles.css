@@ -613,6 +613,7 @@ footer a{
 
     .why div{
         margin: 24px 16px;
+        flex-grow: 1;
     }
     
 }
