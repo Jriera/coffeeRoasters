@@ -540,7 +540,6 @@ footer a{
         
         font-size: 16px;
         line-height: 21px;
-        text-align: left;
         max-width: 560px;
         padding: 0 16px;
     }
@@ -590,6 +589,10 @@ footer a{
         padding-left: 68px;
     }
 
+    .hero p{
+        text-align: left;
+    }
+
     .collection-wrapper{
         display: flex;
         flex-direction: row;
@@ -598,8 +601,7 @@ footer a{
 
     .why{
         max-height: 576px;
-        padding-left: 64px;
-        padding-right: 64px;
+        padding-top: 64px;
               
         
     }
@@ -609,11 +611,13 @@ footer a{
         flex-direction: row;
         justify-content: space-evenly;
         background-color: rgba(0,0,0,0);
+        margin-top: 120px;
     }
 
     .why div{
         margin: 24px 16px;
         flex-grow: 1;
+        height: 320px;
     }
     
 }
