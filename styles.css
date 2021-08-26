@@ -13,6 +13,8 @@ body{
     padding-right: 15px;
 }
 
+/* titles and fonts*/
+
 .section-title{
     font-family: 'Fraunces',serif;
     font-weight: 900;
@@ -68,6 +70,9 @@ body{
     color:var(--grey);
     text-align: center;
 }
+
+/*end titles and fonts*/
+
 
 .top{
     padding: 30px 0;
@@ -185,23 +190,9 @@ button:hover{
     margin-bottom: 200px;
 }
 
-/* .whyTitle{
-
-    font-family: 'Fraunces',serif;
-    font-weight: 900;
-    font-size: 28px;
-    text-align: center;
-    color: var(--light-cream);
-} */
-
-/* .why h3{
-    font-family: 'Fraunces',serif;
-    font-weight: 900;
-    font-size: 24px;
-    text-align: center;
-    color: var(--light-cream);
-    margin: 50px 0 30px; 
-}*/
+#why-wrapper{
+    display: none;
+}
 
 .why div{
     border-radius: 10px;
