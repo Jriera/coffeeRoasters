@@ -15,9 +15,9 @@
 <body>
   <div class="top">
     <img class="logo" src="./assets/shared/desktop/logo.svg" alt="Coffeeroasters logo">
-    <a href="javascript:void(0);" onclick="myFunction()">
-      <img id="hamburger" src="./assets/shared/mobile/icon-hamburger.svg" alt="menu collapsed">
-    </a>
+   
+      <img id="hamburger" src="./assets/shared/mobile/icon-hamburger.svg" alt="menu collapsed" onclick="hamburgerMenu()">
+    
     <nav id="menu">
       <div><a href="index.html">Home</a></div>
       <div><a href="about.html">About us</a></div>
@@ -125,27 +125,7 @@
     </div>
 
   </footer>
-  <script>
-
-    function myFunction(){
-      let x = document.getElementById("menu");
-      let y = document.getElementById("hamburger");
-      if(x.style.display==="flex"){
-        x.style.display="none";
-      }
-      else {
-        x.style.display="flex";
-      }
-
-      if(y.getAttribute("src")==="./assets/shared/mobile/icon-hamburger.svg"){
-          y.setAttribute("src","./assets/shared/mobile/icon-close.svg");
-      }
-      else{
-        y.setAttribute("src","./assets/shared/mobile/icon-hamburger.svg");
-      }
-    }
-
-  </script>
-  
+ 
+  <script src="plan.js"></script>
 </body>
 </html>
