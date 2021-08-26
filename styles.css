@@ -629,7 +629,20 @@ footer a{
     #how-wrapper{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        margin: 0 100px;
+    }
+
+    .howPoint{
+        flex-grow: 1;
+    }
+
+    .number{
+        text-align: left;
+        font-size: 68px;
     }
     
+    #how-wrapper p{
+        text-align: left;
+    }
 }
