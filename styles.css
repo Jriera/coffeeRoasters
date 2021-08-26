@@ -117,14 +117,14 @@ body{
      
 }
 
-.hero h2{
+/* .hero h2{
     
     font-family: 'Fraunces',serif;
     font-weight: 900;
     font-size: 40px;
     color: var(--light-cream);
     text-align: center;
-}
+} */
 
 p{
     font-family: 'barlow',sans-serif;
