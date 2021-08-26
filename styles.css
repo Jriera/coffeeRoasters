@@ -634,11 +634,12 @@ footer a{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 0 100px;
+        
     }
 
     .howPoint{
         flex-grow: 1;
+        margin: 0 32px;
     }
 
     .number{
