@@ -191,7 +191,8 @@ button:hover{
 }
 
 #why-wrapper{
-    display: none;
+    background-color: rgba(0,0,0,0);
+    padding: 0%;
 }
 
 .why div{
