@@ -601,5 +601,11 @@ footer a{
         max-width: 46%;
         padding-left: 68px;
     }
+
+    .collection-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     
 }
