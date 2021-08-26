@@ -145,12 +145,7 @@ button:hover{
     cursor: pointer;
 }
 
-/* .collection h1{
-    font-family: 'Fraunces',serif;
-    font-weight: 900;
-    font-size: 40px;
-    background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
-} */
+
 
 .collection{
     display: flex;
@@ -190,14 +185,14 @@ button:hover{
     margin-bottom: 200px;
 }
 
-.whyTitle{
+/* .whyTitle{
 
     font-family: 'Fraunces',serif;
     font-weight: 900;
     font-size: 28px;
     text-align: center;
     color: var(--light-cream);
-}
+} */
 
 .why h3{
     font-family: 'Fraunces',serif;
@@ -510,11 +505,11 @@ footer a{
     }
     
     .subsection-title{
-        font-family: 'Fraunces',serif;
-        font-weight: 900;
-        font-size: 28px;
-        color: var(--light-cream);
-        text-align: center;
+        
+        font-size: 42px;
+        line-height: 42px;
+        margin: 21px 0;
+        
     }
     
     .subsection-title-black{
@@ -555,6 +550,7 @@ footer a{
         line-height: 21px;
         text-align: left;
         max-width: 560px;
+        padding: 0 15px;
     }
 
     body{
@@ -606,6 +602,18 @@ footer a{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .why{
+        max-height: 576px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-right: 84px;
+        padding-left: 84px;
+        
+        
     }
     
 }
