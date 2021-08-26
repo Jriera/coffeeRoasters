@@ -656,15 +656,23 @@ footer a{
         justify-content: flex-start;
     }
 
+    footer:nth-child(2){
+        margin: left 32px;
+    }
+
+    .footer-menu-item{
+        margin-right:12px;
+    }
+
     footer img{
         margin: 0;
     }
 
     .social{
-        margin-left:0 0 0 40%;
+        margin:0 0 0 40%;
     }
 
     .social img{
-        margin: 0%;
+        margin: 0 12px;
     }
 }
