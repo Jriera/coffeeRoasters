@@ -18,7 +18,7 @@ var weekly = document.getElementById("weekly");
 var biweekly = document.getElementById("biweekly");
 var monthly = document.getElementById("monthly");
 
--modal
+
 
 //preference 
 
