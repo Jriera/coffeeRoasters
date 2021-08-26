@@ -619,5 +619,15 @@ footer a{
         flex-grow: 1;
         height: 320px;
     }
+
+    .how h3{
+        text-align: left;
+    }
+
+    #how-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     
 }
