@@ -505,11 +505,9 @@ footer a{
     }
     
     .subsection-title-black{
-        font-family: 'Fraunces',serif;
-        font-weight: 900;
-        font-size: 28px;
-        color: black;
-        text-align: center;
+        font-size: 42px;
+        line-height: 42px;
+        margin: 21px 0;
     }
     
     .minisection-title{
@@ -618,6 +616,10 @@ footer a{
         margin: 24px 16px;
         flex-grow: 1;
         height: 320px;
+    }
+
+    .how{
+        display: unset;
     }
 
     .how h3{
