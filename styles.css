@@ -655,4 +655,16 @@ footer a{
         flex-direction: row;
         justify-content: flex-start;
     }
+
+    footer img{
+        margin: 0;
+    }
+
+    .social{
+        margin-left:0 0 0 40%;
+    }
+
+    .social img{
+        margin: 0%;
+    }
 }
