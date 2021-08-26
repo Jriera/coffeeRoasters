@@ -509,7 +509,7 @@ footer a{
     }
 
     #menu{     
-        display: block;
+        display: flex;
         text-decoration: none;
         font-family: 'barlow',sans-serif;
         font-weight: 700;
@@ -520,6 +520,15 @@ footer a{
         background: unset;
         flex-direction: row;
         align-items: right;
+        height: unset;
+        width: unset;
+    }
+    #menu div{
+        margin-right: 20px;
+    }
+
+    .hero{
+        background: center /cover no-repeat url("./assets/home/desktop/image-hero-coffeepress.jpg");
     }
     
 }
