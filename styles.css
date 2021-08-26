@@ -606,14 +606,14 @@ footer a{
 
     .why{
         max-height: 576px;
-        border-radius: 10px;
+              
+        
+    }
+
+    #why-wrapper{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        padding-right: 84px;
-        padding-left: 84px;
-        
-        
     }
     
 }
