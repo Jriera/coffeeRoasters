@@ -500,6 +500,26 @@ footer a{
 
 @media screen and(min-width:1200px) {
 
-    
+    #hamburger{
+        display: none;
+    }
+
+    .logo{
+        max-height: 26px;
+    }
+
+    #menu{     
+        display: block;
+        text-decoration: none;
+        font-family: 'barlow',sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        font-variant-caps:all-small-caps;
+        position:unset;
+        top: unset;
+        background: unset;
+        flex-direction: row;
+        align-items: right;
+    }
     
 }
