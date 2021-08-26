@@ -500,8 +500,82 @@ footer a{
 
 @media only screen and (min-width:1200px) {
 
+
+    /*font styles and sizes*/
+
+    .section-title{
+        
+        font-size: 68px;
+        line-height: 84px;
+        text-align: left;
+    }
+    
+    .section-title-black{
+        font-family: 'Fraunces',serif;
+        font-weight: 900;
+        font-size: 40px;
+        color: black;
+        text-align: center;
+    }
+    
+    .subsection-title{
+        font-family: 'Fraunces',serif;
+        font-weight: 900;
+        font-size: 28px;
+        color: var(--light-cream);
+        text-align: center;
+    }
+    
+    .subsection-title-black{
+        font-family: 'Fraunces',serif;
+        font-weight: 900;
+        font-size: 28px;
+        color: black;
+        text-align: center;
+    }
+    
+    .minisection-title{
+        font-family: 'Fraunces',serif;
+        font-weight: 900;
+        font-size: 24px;
+        color: var(--light-cream);
+        text-align: center;
+    }
+    
+    .minisection-title-black{
+        font-family: 'Fraunces',serif;
+        font-weight: 900;
+        font-size: 24px;
+        color: black;
+        text-align: center;
+    }
+    
+    .minisection-title-grey{
+        font-family: 'Fraunces',serif;
+        font-weight: 900;
+        font-size: 24px;
+        color:var(--grey);
+        text-align: center;
+    }
+
+    p{
+        
+        font-size: 16px;
+        line-height: 21px;
+        text-align: left;
+        max-width: 560px;
+    }
+
+    body{
+        padding: 0 80px;
+    }
+
     #hamburger{
         display: none;
+    }
+
+    .top{
+        align-items: baseline;
     }
 
     .logo{
@@ -529,6 +603,7 @@ footer a{
 
     .hero{
         background: center /cover no-repeat url("./assets/home/desktop/image-hero-coffeepress.jpg");
+        min-height: 400px;
     }
     
 }
