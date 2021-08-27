@@ -723,6 +723,7 @@ footer a{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        align-items: center;
     }
 
     .commitment h3{
