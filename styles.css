@@ -716,5 +716,12 @@ footer a{
 
     .about p{
         text-align: left;
+        line-height: 24px;
+    }
+
+    .commitment{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 }
