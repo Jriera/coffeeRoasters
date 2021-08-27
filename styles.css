@@ -670,9 +670,15 @@ footer a{
         align-items: right;
         height: unset;
         width: unset;
+        white-space: nowrap;
     }
     #footer-menu div{
         margin-right: 20px;
+    }
+
+    footer div{
+        margin-top: 0;
+        margin-bottom: 0;
     }
     
 
@@ -682,7 +688,8 @@ footer a{
     }
 
     .social{
-        margin:0 0 0 40%;
+        margin:0 0 0 35%;
+        white-space: nowrap;
     }
 
     .social img{
