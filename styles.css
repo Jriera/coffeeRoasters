@@ -725,6 +725,10 @@ footer a{
         justify-content: space-evenly;
     }
 
+    .commitment h3{
+        text-align: left;
+    }
+
     .commitment p{
         text-align: left;
     }
