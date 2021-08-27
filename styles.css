@@ -732,5 +732,21 @@ footer a{
 
     .commitment p{
         text-align: left;
+        line-height: 24px;
+    }
+
+    .quality{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .quality p{
+        text-align: left;
+        line-height: 24px;
+    }
+
+    .quality h2{
+        text-align: left;
     }
 }
