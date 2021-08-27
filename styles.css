@@ -541,11 +541,12 @@ footer a{
         max-width: 560px;
         padding: 0 32px 0 0px;
     }
-
+/* end of font styles*/
     body{
         padding: 0 80px;
     }
 
+/* Main navigation menu style*/
     #hamburger{
         display: none;
     }
@@ -576,6 +577,8 @@ footer a{
     #menu div{
         margin-right: 20px;
     }
+
+    /* Home page CSS*/
 
     .hero{
         background: center /cover no-repeat url("./assets/home/desktop/image-hero-coffeepress.jpg");
@@ -651,6 +654,9 @@ footer a{
         text-align: left;
     }
 
+
+
+    /*footer CSS*/
     footer{
         flex-direction: row;
         
@@ -694,5 +700,21 @@ footer a{
 
     .social img{
         margin: 0 12px;
+    }
+
+    /*About Us page CSS*/
+
+    .about{
+        background: center /cover no-repeat url("./assets/about/desktop/image-hero-whitecup.jpg");
+        min-height: 400px;
+    }
+
+    #about-body{
+        max-width: 46%;
+        padding-left: 68px;
+    }
+
+    .about p{
+        text-align: left;
     }
 }
