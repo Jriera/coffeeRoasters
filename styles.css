@@ -656,6 +656,24 @@ footer a{
         
     }
 
+    #footer-menu{     
+        display: flex;
+        text-decoration: none;
+        font-family: 'barlow',sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        font-variant-caps:all-small-caps;
+        position:unset;
+        top: unset;
+        background: unset;
+        flex-direction: row;
+        align-items: right;
+        height: unset;
+        width: unset;
+    }
+    #footer-menu div{
+        margin-right: 20px;
+    }
     
 
 
