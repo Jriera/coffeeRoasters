@@ -724,4 +724,8 @@ footer a{
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    .commitment p{
+        text-align: left;
+    }
 }
